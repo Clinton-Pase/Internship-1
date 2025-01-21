@@ -1,0 +1,92 @@
+
+.login-box .action{
+    display: inline-flex;
+    column-gap: 6rem;
+}
+.action1 p{
+    font-size: 1rem;
+    margin-left: -3rem;
+}
+
+.action1 hr{
+    width: 1130%;
+    margin-left: -7rem;
+    color: #0d1a5c;
+    height: 20px;
+
+}
+
+.action2 hr{
+    width: 450%;
+    margin-left: -3rem;
+    color: #afafaf;
+}
+
+.login-box input{
+    width: 170%;
+    background: transparent;
+    outline: 0;
+    border: 1px solid #999;
+    border-radius: 25px;
+    text-align: left;
+padding: 0.5rem 1rem;
+margin: 13px -55px;
+
+}
+::placeholder{
+    font-weight: 500;
+    color:#333;
+
+}
+    
+    
+.login-box button {
+    width: 170%;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    margin: 25px -50px;
+    border-radius: 30px;
+    background:#1dd0a3;
+    border: 1px solid #999;
+    font: weight 500px;
+    cursor: pointer;
+}
+
+#via{
+    
+        width: 170%;
+        display: flex;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: center;
+        margin: 25px -50px;
+        border-radius: 30px;
+        background:#5796d5;
+        border: 1px solid #999;
+        font: weight 500px;
+        cursor: pointer;
+    
+}
+
+.login-box #line{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    margin-top: 0.7rem;
+    margin-left: -3.5rem;
+
+}
+
+#second-line{
+
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    margin-top: -0.8rem;
+    margin-left: 6.2rem;
+
+}
+

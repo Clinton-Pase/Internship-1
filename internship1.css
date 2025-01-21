@@ -1,0 +1,1871 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body,
+html {
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.site-container {
+    max-width: 1500px;
+    padding: 0 auto;
+    width: 100%;
+
+}
+
+.full-width {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+
+.first-section {
+    min-height: 45rem;
+    background: url(./images/Image2.png), linear-gradient(to right, #7f44ff, #9966cc);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.hamburger span {
+    width: 1.5rem;
+    height: 0.3rem;
+    background-color: white;
+    transition: 0.3s;
+    margin-left: -3rem;
+}
+
+
+nav ul {
+    width: 34%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.1rem;
+    margin-left: 28em;
+}
+
+nav ul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(1) {
+    color: rgb(100, 100, 100);
+}
+
+.begin {
+    display: block;
+    text-align: center;
+    margin-top: 9rem;
+
+}
+
+.begin h6 {
+    color: aliceblue;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: -3rem;
+}
+
+.begin h2 {
+    font-size: 4.3rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    color: aliceblue;
+}
+
+.begin p {
+    color: #ffff;
+    font-size: 1.3rem;
+}
+
+#forward {
+    position: absolute;
+    top: 15.5em;
+    right: 10rem;
+
+}
+
+#backward {
+    position: absolute;
+    top: 15.5em;
+    left: 10rem;
+    rotate: 180deg;
+
+}
+
+.dot {
+    display: flex;
+    justify-content: center;
+
+}
+
+.dot i {
+    padding: 0.3rem;
+    margin-top: 2.9rem;
+    font-size: 10px;
+}
+
+.first-section button {
+    margin-left: 45em;
+    margin-top: 4em;
+    padding: 14px 24px;
+    border: 1px;
+    border-radius: 20px;
+    color: white;
+    background: #390cb3ee;
+}
+
+.Intro-section {
+    min-height: 32rem;
+    background: url(./images/ssseeer.png), linear-gradient(to right, #7f44ff, #4f2f70);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.Intro-section {
+    display: block;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+.Intro-section h5 {
+    color: #fff;
+    margin-top: 3.5rem;
+
+}
+
+
+.Intro-section h2 {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.Intro-section p {
+    margin-top: 3rem;
+    color: #fff;
+}
+
+
+
+.Info-section {
+    min-height: 115vh;
+    background: url(./images/Rectangle2.png), linear-gradient(to right, #7f44ff, #4f2f70);
+}
+
+.Info-section img {
+    max-height: 22rem;
+    margin-top: 7em;
+}
+
+.Info-section .create {
+    display: block;
+    margin-left: 24rem;
+    color: #fff;
+    margin-top: -22rem;
+}
+
+.Info-section .create h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+
+.Info-section .feats {
+    margin-top: 2.3em;
+    display: inline-flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 0.9rem;
+}
+
+.Info-section .feat1 .fa-regular {
+    font-size: 1.8rem;
+
+}
+
+.Info-section .feat1 h6 {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: left
+}
+
+.Info-section .feat2 h4 {
+    margin-top: 1rem;
+    font-weight: 600;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+.Info-section .feat1 p {
+    margin-top: 1rem;
+}
+
+
+.Info-section .feat2 .fa-regular {
+    font-size: 1.8rem;
+}
+
+.Info-section .feat2 h6 {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.Info-section .feat2 p {
+    margin-top: 1rem;
+}
+
+
+
+.News-section {
+    min-height: 120vh;
+    background: url(./images/errorke.png), linear-gradient(#7f44ff, #4f2f70);
+
+}
+
+.News-section .kinni {
+    display: flex;
+    justify-content: center;
+    gap: 11rem;
+    padding: 6.5rem 4rem;
+}
+
+.News-section .twin1 {
+    margin-top: 3rem;
+    margin-left: -25rem;
+
+}
+
+.News-section .twin1 h3 {
+    font-size: 2.8rem;
+    padding: 5px;
+    color: #fff;
+    font-weight: 500;
+
+
+}
+
+
+.News-section .twin1 p {
+    text-align: left;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 1.2rem;
+}
+
+.News-section .login-box {
+    width: 26%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1.5rem 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 55%;
+    min-height: 25em;
+    margin-top: 3em;
+}
+
+.News-section .login-box .subsec {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 6rem;
+    flex-basis: px;
+}
+
+.News-section .subsec #sign-up {
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#subsec1 {
+    width: 51%;
+    margin-left: -0.8rem;
+    color: #0d1a5c;
+    margin-top: 35px;
+    position: absolute;
+
+}
+
+#subsec2 {
+    width: 50%;
+    margin-left: 10.2rem;
+    color: #1f1d1d;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.subsec #login {
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-bottom: 1.5rem;
+
+
+}
+
+
+.News-section input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
+
+
+::placeholder {
+    font-weight: 500;
+    color: #333;
+
+}
+
+
+.login-box button {
+    width: 80%;
+    display: flex;
+    padding: 0.5rem 1.8rem;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 30px;
+    border-radius: 30px;
+    background: #1dd0a3;
+    border: 1px solid #1dd0a3;
+    font: weight 500px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    color: #FFF;
+    background: rgb(240, 58, 119);
+    border: 1px solid rgb(240, 58, 119);
+    ;
+
+}
+
+#or {
+    margin-left: 10rem;
+    font-size: 0.9rem;
+}
+
+
+#via {
+
+    width: 80%;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    margin: 19px 30px;
+    border-radius: 30px;
+    background: #1e456d;
+    border: 1px solid #1e456d;
+    font: weight 500px;
+    cursor: pointer;
+
+
+}
+
+#via:hover {
+    color: #FFF;
+    background: rgb(240, 58, 119);
+    border: 1px solid rgb(240, 58, 119);
+    ;
+}
+
+.login-box #line {
+
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    margin-top: 0.55rem;
+    margin-left: 2.5rem;
+
+}
+
+#second-line {
+
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    margin-top: -0.5rem;
+    margin-left: 12.2rem;
+
+}
+
+.login-box h5 {
+    margin-left: 75px;
+}
+
+
+
+.Testimony {
+    margin-top: -20px;
+    min-height: 100vh;
+    background-color: rgb(31, 0, 135);
+}
+
+.Testimony h2 {
+    padding: 4.5rem 4rem;
+    color: #ffff;
+    text-align: left;
+    margin-left: 7rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.grid-box {
+    margin-top: -3.5rem;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+
+    margin-left: 10rem;
+}
+
+.grid-box p {
+    font-size: 0.8rem;
+    color: #ffff;
+    position: relative;
+    margin-top: -80px;
+    margin-left: 130px;
+}
+
+.grid-box .box1 {
+    border: 0.8px solid rgb(136, 136, 136);
+    width: 100%;
+    padding: 1rem 0.7rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+}
+
+.grid-box .box1 .bb h6 {
+    color: #a9a9a9;
+    position: relative;
+    margin-left: 8.2rem;
+    margin-top: 1.8rem;
+    font-weight: 300;
+    font-size: 0.7rem;
+
+}
+
+.grid-box .box1 .aa img {
+    margin-top: 1rem;
+    margin-left: 9px;
+    width: 18%;
+}
+
+
+.grid-box .bb {
+    margin-left: -1.5rem;
+}
+
+.grid-box .box2 {
+    border: 0.8px solid rgb(136, 136, 136);
+    width: 100%;
+    padding: 1rem 0.7rem;
+    border-radius: 6px;
+    position: relative;
+
+}
+
+.grid-box .box2 .aa img {
+    margin-top: 1rem;
+    margin-left: 9px;
+    width: 18%;
+}
+
+
+
+.grid-box .box2 .bb h6 {
+    color: #a9a9a9;
+    position: relative;
+    margin-left: 8.2rem;
+    margin-top: 1.8rem;
+    font-weight: 300;
+}
+
+.grid-box .box2 .bb p {
+    font-size: 0.8rem;
+    margin-top: -4.6rem;
+}
+
+
+
+.grid-box .box3 {
+    border: 0.8px solid rgb(136, 136, 136);
+    width: 100%;
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+.grid-box .box3 .aa img {
+    margin-top: 1rem;
+    margin-left: 7px;
+    width: 19%;
+}
+
+
+.grid-box .box3 .bb h6 {
+    color: #a9a9a9;
+    position: relative;
+    margin-left: 8.2rem;
+    margin-top: 1.8rem;
+    font-weight: 300;
+}
+
+.grid-box .box3 .bb p {
+    font-size: 0.8rem;
+    margin-top: -4rem;
+}
+
+
+
+.grid-box .box4 {
+    border: 0.8px solid rgb(136, 136, 136);
+    width: 100%;
+    padding: 2rem;
+    border-radius: 6px;
+
+}
+
+.grid-box .box4 .aa img {
+    margin-top: 1rem;
+    margin-left: 9px;
+    width: 18%;
+}
+
+
+
+.grid-box .box4 .bb h6 {
+    color: #a9a9a9;
+    position: relative;
+    margin-left: 8.2rem;
+    margin-top: 1.8rem;
+    font-weight: 300;
+}
+
+.grid-box .box4 .bb p {
+    font-size: 0.8rem;
+    margin-top: -4rem;
+}
+
+.Ad {
+    min-height: 37rem;
+    background: url(./images/sixth.png), linear-gradient(#7f44ff, #4f2f70);
+}
+
+.Ad .call {
+    padding: 4.5rem 6rem;
+    text-align: center;
+}
+
+.Ad .call h3 {
+    color: #ffff;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.Ad .call p {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 0.9rem;
+}
+
+.Ad .cta {
+    display: flex;
+    justify-content: center;
+    gap: 0.9rem;
+    margin-bottom: 30px;
+
+}
+
+.Ad .play {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.Ad .play:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.play img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.cta button {
+    padding: 0.65rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b30071;
+}
+
+.Sample {
+    padding: 4.5rem 5rem;
+    min-height: 120vh;
+    background-color: rgb(31, 0, 135);
+}
+
+.Sample .works {
+    display: flex;
+    justify-content: center;
+    gap: 40rem;
+}
+
+.Sample .works h5 {
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.Sample h6 {
+    font-weight: 400;
+}
+
+.Sample .works button {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 0.9rem 1.5rem;
+    border-radius: 24px;
+    color: #ffff;
+}
+
+.work-place {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    row-gap: 3rem;
+    column-gap: 0.5rem;
+    margin-left: 120px;
+    margin-top: 2rem;
+}
+
+.work-place h6 {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.work-place p {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0.8rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.8vw
+}
+
+.work-place img {
+    width: 95%;
+}
+
+.Startup-crew {
+    min-height: 120vh;
+    background-color: rgb(31, 0, 135);
+    padding: 1.5rem;
+}
+
+.Startup-crew h3 {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.Startup-crew .intro p {
+    color: #fff;
+
+}
+
+.Startup-crew h6 {
+    font-weight: 300;
+    margin-top: 0.7rem;
+}
+
+.Startup-crew .media {
+    display: flex;
+    justify-content: start;
+    column-gap: 0.5rem;
+    margin-top: 0.9rem;
+}
+
+.Startup-crew .intro {
+    margin-left: 9rem;
+}
+
+.Startup-crew .crew {
+    margin-left: 9rem;
+    margin-top: 4rem;
+    color: #fff;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5rem;
+    row-gap: 3rem;
+}
+
+.Contacts {
+    min-height: 150vh;
+    background: url(./images/fads.png), linear-gradient(#7f44ff, #4f2f70);
+    padding: 2.5rem 4rem;
+    background-size: cover;
+
+
+}
+
+.Contacts .begin {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding: 1.5rem 4rem;
+    margin-top: 1.9rem;
+
+}
+
+.begin h3 {
+    font-size: 3rem;
+}
+
+.keep {
+    margin-left: -27.9rem;
+}
+
+.keep h3 {
+    text-align: left;
+    margin-top: 3.1rem;
+    margin-bottom: 2.0rem;
+    font-weight: 600;
+    color: #fff;
+    font-size: 2.7rem;
+}
+
+.keep p {
+    text-align: left;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+}
+
+#num {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 1.5rem;
+}
+
+.Contacts .fa-solid {
+    position: absolute;
+    left: 14rem;
+    margin-top: 2.8rem;
+}
+
+#mail {
+    margin-top: 2.1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 1.76rem;
+}
+
+.Contacts .fa-regular {
+    position: absolute;
+    left: 14rem;
+    margin-top: 2.6rem;
+
+}
+
+#add {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 1.7rem;
+}
+
+.Contacts .fa-map {
+    position: absolute;
+    left: 14rem;
+    margin-top: 3.3rem;
+}
+
+.Contacts input:placeholder-shown {
+    color: #9f9f9f;
+    font-size: 0.7rem;
+}
+
+.Contacts .form-container {
+    width: 25%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1.5rem 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 55%;
+    min-height: 26em;
+    margin-top: 4em;
+}
+
+.Contacts table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+td {
+    padding: 0 10px;
+}
+
+td label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.Contacts select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+}
+
+#fname {
+    color: #0d1a5c;
+    font-weight: 400;
+    margin-left: -6.5em;
+    font-size: 0.9em;
+}
+
+#Budget {
+    color: #0d1a5c;
+    font-weight: 400;
+}
+
+#email {
+    text-align: left;
+    color: #0d1a5c;
+    font-weight: 400;
+    margin-left: 1;
+}
+
+#msg {
+    text-align: left;
+    color: #0d1a5c;
+    font-weight: 400;
+}
+
+#dmail {
+    height: 90px;
+    border-radius: 5px;
+}
+
+.Contacts button {
+    margin-left: 12rem;
+    padding: 0.4rem 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #1dd0a3;
+    color: #FFF;
+}
+
+.Contacts button:hover {
+    background-color: #ff26c5;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+}
+
+.div label {
+    font-size: 0.78rem;
+    margin-left: 35px;
+    position: absolute;
+    margin-top: 33px
+}
+
+.div input {
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 35px;
+    font-weight: 300;
+}
+
+.Pricing {
+    margin-top: -1rem;
+    min-height: 140vh;
+    background: url(./images/rrreename.png), linear-gradient(#7f44ff, #4f2f70);
+    ;
+}
+
+.Pricing .middle {
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem 5rem;
+
+}
+
+.Pricing .middle h3 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 1.1em;
+    margin-top: 1.0rem;
+}
+
+.Pricing .middle p {
+    font-size: 1.2rem;
+}
+
+.tenth-div {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 4rem;
+
+}
+
+.tenth-div ul {
+    list-style: none;
+
+}
+
+.tenth-div ul li {
+    font-size: 0.8rem;
+    padding-bottom: 8px;
+}
+
+.tenth-div #grey {
+    color: #c9c9c9;
+}
+
+.a-3-way .fa-solid {
+    position: absolute;
+    margin-left: -25px;
+}
+
+.b-3-way .fa-solid {
+    position: absolute;
+    margin-left: -25px;
+}
+
+.c-3-way .fa-solid {
+    position: absolute;
+    margin-left: -25px;
+}
+
+.tenth-div button {
+    padding: 0.9rem 1.8em;
+    margin-top: 3rem;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.tenth-div .a-3-way {
+    border: 1px solid white;
+    padding: 4.9rem;
+    text-align: left;
+    min-height: 28rem;
+    border-radius: 10px;
+}
+
+
+.tenth-div .b-3-way {
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 4.9rem;
+    text-align: left;
+    min-height: 35rem;
+}
+
+
+.tenth-div .c-3-way {
+    border: 1px solid white;
+    padding: 4.9rem;
+    text-align: left;
+    min-height: 35rem;
+    border-radius: 10px;
+}
+
+.tenth-div .a-3-way h6 {
+    margin-top: -1.5rem;
+    margin-bottom: 2.0rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+
+.tenth-div .a-3-way h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.tenth-div .b-3-way h6 {
+    margin-top: -1.5rem;
+    margin-bottom: 2.0rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.tenth-div .b-3-way h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 2.1em;
+    font-weight: 500;
+}
+
+
+.tenth-div .c-3-way h6 {
+    margin-top: -1.5rem;
+    margin-bottom: 2.0rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.tenth-div .c-3-way h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 2.1em;
+    font-weight: 500;
+}
+
+.tenth-div .b-3-way button {
+    padding: 0.9rem 1.8em;
+    margin-top: 3rem;
+    background: rgb(255, 32, 136);
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.tenth-div .b-3-way button:hover {
+    color: #ffff;
+    background: midnightblue;
+}
+
+footer {
+    min-height: 20vh;
+    background-color: midnightblue;
+}
+
+footer .foot {
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    margin-bottom: -2.5rem;
+    padding: 2.5rem;
+}
+
+footer .inside {
+    margin-left: 39rem;
+}
+
+footer .inside ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 2px 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+
+}
+
+
+footer .inside ul li:hover {
+    color: rgb(250, 27, 120);
+}
+
+
+.foot h4 {
+    margin-left: 6rem;
+    font-size: 1.5rem;
+}
+
+footer hr {
+    margin-top: 2rem;
+    margin: 2.5rem 8rem;
+}
+
+.below {
+    margin-left: 8rem;
+    margin-top: -1.7rem;
+}
+
+.below ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin: 0.2rem 1%;
+    justify-content: flex-start;
+    cursor: pointer;
+    font-size: 0.7rem;
+    color: #fff;
+}
+
+.below ul li:hover {
+    color: rgb(250, 27, 120);
+}
+
+
+footer .cop {
+    margin-left: 58rem;
+    color: #fff;
+    font-size: 0.8vw;
+}
+
+@media screen and (max-width:42em) {
+
+    .first-section {
+        background-size: cover;
+    }
+
+
+    .hamburger {
+        display: flex;
+        margin-left: 21em;
+        padding: 2em
+    }
+
+    nav ul {
+        position: fixed;
+        right: -100%;
+        /* Hide menu initially */
+        top: 0;
+        height: 70vh;
+        width: 300px;
+        background-color: #272727;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 3rem;
+        margin: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    nav ul.active {
+        right: 0;
+        /* Show menu when active */
+    }
+
+    nav ul li {
+        margin: 20px 0;
+        padding: 0 2rem;
+    }
+
+    nav ul li:nth-child(1) {
+        color: rgb(255, 255, 255);
+    }
+
+    nav ul li:hover {
+        text-decoration: underline;
+    }
+
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    .begin h6 {
+        margin-top: -8rem;
+        font-size: clamp(2rem, 4.5vw, 3rem);
+    }
+
+    .begin h2 {
+        font-size: clamp(4rem, 1.5vw, 6.8rem);
+        line-height: 1em;
+        padding: 1em;
+        margin-top: -3rem;
+    }
+
+    .begin p {
+        font-size: clamp(1.1rem, 2.5vw, 2.8rem);
+        padding: 1em;
+        margin-top: -4rem;
+    }
+
+    .first-section button {
+        position: absolute;
+        left: clamp(-29.5rem, -32rem, -34rem);
+        padding: 0.8rem 4%;
+        margin-top: 1.5rem;
+
+    }
+
+    .dot {
+        margin-top: -3rem;
+    }
+
+    #backward {
+        margin-top: 4.5rem;
+        margin-left: -7rem;
+    }
+
+    #forward {
+        margin-top: 4.5rem;
+        margin-right: -8rem;
+    }
+
+    .Intro-section {
+        background-size: cover
+    }
+
+
+
+    .Intro-section h5 {
+        font-size: clamp(1rem, 1vw, 2rem);
+    }
+
+
+    .Intro-section h2 {
+        font-size: clamp(1rem, 8vw, 2rem);
+    }
+
+    .Intro-section p {
+        font-size: clamp(1.2em, 2vw, 2rem);
+        padding: 1em;
+    }
+
+    .Info-section {
+        width: 100%;
+        padding: 0.9rem;
+        background-size: cover;
+    }
+
+    .image-container {
+        margin-left: -1rem;
+        margin-top: -2em;
+    }
+
+    .Info-section img {
+        max-width: 45%;
+
+    }
+
+    .Info-section .create {
+        display: block;
+        margin-top: 4rem;
+    }
+
+    .Info-section h3 {
+        position: absolute;
+        text-align: center;
+        left: 0.5rem;
+        margin-top: -4rem;
+    }
+
+    .firstparagraph {
+        text-align: center;
+        font-size: 3.5vw;
+        display: inline-block;
+        margin-top: 2rem;
+        margin-left: -26rem;
+        padding: 2rem 4rem;
+    }
+
+    .Info-section .feats {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -2em;
+        margin-left: -27rem;
+    }
+
+    .feat1,
+    .feat2 {
+        width: 100%;
+        padding: 0.65rem;
+    }
+
+    .Info-section .feat1 .fa-regular,
+    .Info-section .feat2 .fa-regular {
+        font-size: 1.8rem;
+        margin-left: 12rem;
+        margin-bottom: -7rem;
+    }
+
+    .Info-section .feat1 h6,
+    .Info-section .feat2 h4 {
+        font-size: 3.5vw;
+        padding: 0.5rem 1rem;
+        margin-bottom: -2rem;
+        text-align: center;
+    }
+
+    .Info-section .feat1 h6 {
+        font-weight: 600;
+    }
+
+    .Info-section .feat1 p,
+    .Info-section .feat2 p {
+        font-size: 3vw;
+        padding: 0.5rem 3rem;
+        text-align: center;
+    }
+
+
+    .News-section {
+        background-size: cover;
+    }
+
+
+    .News-section .kinni {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+
+    }
+
+    .News-section .twin1 {
+        margin-left: 1rem;
+        margin-top: -4em;
+        text-align: center;
+    }
+
+    .News-section .twin1 br {
+        display: none;
+    }
+
+    .News-section .twin1 h3 {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+        font-weight: 500;
+    }
+
+    .News-section .twin1 p {
+        font-size: clamp(1rem, 3.5vw, 2rem);
+        text-align: center;
+    }
+
+
+    .News-section .login-box {
+        position: relative;
+        width: 90%;
+        left: auto;
+        margin: 2rem auto;
+        min-height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .News-section .login-box .subsec {
+        column-gap: 3rem;
+        justify-content: center;
+    }
+
+    #subsec1,
+    #subsec2 {
+        width: 40%;
+        margin-left: 0;
+    }
+
+
+    #subsec1 {
+        left: 5%;
+    }
+
+    #subsec2 {
+        right: 5%;
+        margin-left: 0;
+    }
+
+    .News-section .subsec #sign-up,
+    .subsec #login {
+        margin-left: 0;
+        font-size: 0.9rem;
+    }
+
+    #or {
+        margin-left: 45%;
+        margin-top: 1rem;
+    }
+
+
+    .login-box #line {
+        width: 25%;
+        margin-left: 1rem;
+    }
+
+    #second-line {
+        width: 25%;
+        right: 1rem;
+        margin-left: 0;
+    }
+
+    .News-section input[type="email"],
+    input[type="password"] {
+        margin: 0.5rem;
+    }
+
+    .Testimony h2 {
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    .grid-box {
+        grid-template-columns: 1fr;
+        /* Single column */
+        margin-left: 0.5rem;
+
+
+    }
+
+    .grid-box p {
+        font-size: 0.75rem;
+        padding-left: -2rem;
+    }
+
+
+    .Ad {
+        background-size: cover;
+    }
+
+    br {
+        display: none;
+    }
+
+    .Ad .call h3 {
+        font-size: 9vw;
+        padding: 1rem;
+        margin-top: -2rem;
+    }
+
+    .cta {
+        margin-top: -2rem;
+    }
+
+    .Ad .cta button {
+        padding: 16px 2px;
+        font-size: vw;
+    }
+
+    .Sample .works {
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 1rem;
+    }
+
+    .Sample .works h5 {
+        margin-left: 1.5rem;
+        font-size: 6vw
+    }
+
+    .Sample .works button {
+        font-size: 0.7em;
+        width: 90%;
+    }
+
+    .Sample p {
+        font-size: 3vw
+    }
+
+    .work-place {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+
+    .Startup-crew .intro {
+        margin-left: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .Startup-crew .intro p {
+        font-size: clamp(0.6rem, 4vw, 2rem);
+        padding: 1em;
+        margin-top: -2rem;
+    }
+
+    .Startup-crew .crew {
+        margin-left: 8rem;
+        display: flex;
+        gap: 1.9rem;
+        flex-direction: column;
+        margin-top: 2rem;
+
+    }
+
+    #two {
+        margin-left: 1.2rem;
+    }
+
+    #unique-icon {
+        margin-left: 1rem;
+    }
+
+    #title {
+        margin-left: -0.6rem;
+    }
+
+    #fe {
+        margin-left: -0.7rem;
+    }
+
+    #bird {
+        margin-left: 2rem;
+    }
+
+    #his {
+        margin-left: 0.rem;
+    }
+
+    .fields img {
+        width: 40%;
+    }
+
+    .fields p {
+        text-align: left;
+        margin-left: -1rem;
+    }
+
+    .fields h6 {
+        margin-top: -0.1rem;
+        margin-left: 0.4rem;
+    }
+
+
+
+    .tenth-div {
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: rem;
+    }
+
+    .tenth-div ul li {
+        font-size: clamp(0.7rem, 0.5vw, 1.5rem);
+    }
+
+    .tenth-div .a-3-way {
+        width: 90%;
+        text-align: left;
+        min-height: 20rem;
+        padding: 4rem 4rem;
+
+    }
+
+    .tenth-div .a-3-way h6 {
+        font-size: 100%;
+        margin-left: -0.5rem
+    }
+
+    .tenth-div .a-3-way h1 {
+        font-size: 3.7vw;
+        margin-top: -1.7rem;
+        font-weight: 600;
+    }
+
+    .tenth-div .a-3-way button {
+        font-size: 2vw;
+
+    }
+
+    .tenth-div .b-3-way {
+        width: 90%;
+        text-align: left;
+        min-height: 20rem;
+        padding: 4rem 4rem;
+
+    }
+
+    .tenth-div .b-3-way h6 {
+        font-size: 100%;
+        margin-left: -1rem
+    }
+
+    .tenth-div .b-3-way h1 {
+        font-size: 3.7vw;
+        margin-top: -2rem
+    }
+
+    .tenth-div .b-3-way button {
+        font-size: 2vw;
+
+    }
+
+    .tenth-div .c-3-way {
+        width: 90%;
+        text-align: left;
+        min-height: 20rem;
+        padding: 4rem 4rem;
+
+    }
+
+    .tenth-div .c-3-way h6 {
+        font-size: 100%;
+        ;
+        margin-left: -0.2rem
+    }
+
+
+    .tenth-div .c-3-way h1 {
+        font-size: 3.7vw;
+        margin-top: -2rem
+    }
+
+    .tenth-div .c-3-way button {
+        font-size: 2vw;
+
+    }
+
+    footer .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot h4 {
+        font-size: 5vw;
+        margin-left: -1.5rem;
+        margin-bottom: 0.7rem;
+    }
+
+    footer .inside {
+        width: 100%;
+        margin: 0.6rem 0;
+        margin-bottom: -2rem;
+    }
+
+    footer .inside ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 26%;
+        gap: 0.6rem;
+
+    }
+
+
+    #privacy {
+        margin-left: 10%;
+    }
+
+    #terms {
+        margin-left: 17%;
+    }
+
+    footer .inside ul li {
+        text-align: center;
+
+    }
+
+    footer .inside i {
+        margin-left: 19%;
+    }
+
+    footer .below ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+
+    }
+
+
+
+
+    .Contacts {
+        background-size: cover;
+    }
+
+    .Contacts .begin {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 1rem;
+        gap: 2rem;
+    }
+
+    .keep {
+        margin-left: 0;
+        padding: 0.75rem;
+        margin-top: -2rem;
+    }
+
+    .keep h3 {
+        font-size: 2rem;
+        text-align: left;
+        margin: 1rem 0;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 5rem;
+    }
+
+    .keep p {
+        text-align: left;
+        padding: 0.5rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    #num,
+    #mail,
+    #add {
+        position: relative;
+        padding-left: 2rem;
+        margin: 1rem 0;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .Contacts .fa-solid {
+        position: absolute;
+        left: 5rem;
+        color: #ffffff;
+        margin-top: 1.7rem;
+    }
+
+    .Contacts .fa-regular {
+        margin-top: 1rem;
+        position: absolute;
+        left: 5rem;
+        color: #ffffff;
+    }
+
+
+    .Contacts .form-container {
+        width: 100%;
+        margin: 1rem auto;
+        background-color: #ffffff;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: relative;
+        left: auto;
+    }
+
+    .Contacts table {
+        width: 100%;
+    }
+
+    .Contacts tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .Contacts td {
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    td label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: #0d1a5c;
+        text-align: left;
+    }
+
+    #fname {
+        margin-left: -0.5rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    .Contacts select,
+    #dmail {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid #ddd;
+        border-radius: 23px;
+        font-size: 1rem;
+    }
+
+    #dmail {
+        height: 90px;
+        border-radius: 5px;
+    }
+
+    .Contacts button {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 0.8rem;
+        border-radius: 25px;
+        border: none;
+        background-color: #1dd0a3;
+        color: #FFF;
+        font-size: 1rem;
+    }
+
+    .Contacts .div {
+        padding: 1rem 0;
+        position: relative;
+    }
+
+    .div input {
+        margin: 0;
+        position: static;
+        margin-left: 1rem;
+    }
+
+    .div label {
+        margin-left: 1.5rem;
+        position: static;
+        font-size: 0.9rem;
+        margin-top: -0.4rem;
+    }
+
+
+
+}
